@@ -1,5 +1,7 @@
-[tool.poetry]
+[project]
 name = "niimprint"
+
+[tool.poetry]
 version = "0.1.0"
 description = ""
 authors = []
@@ -13,6 +15,9 @@ click = "^8.1.7"
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+[project.scripts]
+niimprint = "niimprint.__main__:print_cmd"
 
 [tool.ruff]
 line-length = 88
