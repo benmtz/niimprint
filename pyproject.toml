@@ -1,13 +1,10 @@
 [project]
 name = "niimprint"
 version = "0.1.0"
-
-[tool.poetry]
-version = "0.1.0"
 description = ""
 authors = []
 
-[tool.poetry.dependencies]
+[project.dependencies]
 python = ">=3.10"
 pyserial = "^3.5"
 pillow = "^10.1.0"
